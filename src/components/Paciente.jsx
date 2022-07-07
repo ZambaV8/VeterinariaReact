@@ -6,7 +6,7 @@ useEffect( () => {
 
 const {nombre,propietario,email,fecha,sintomas,id} = paciente
 
-const handleEliminar= (e) => {
+const handleEliminar= () => {
    const respuesta = confirm("Deseas eliminar este paciente?")
   
   if (respuesta) {
